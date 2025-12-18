@@ -272,6 +272,26 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 576px) {
+  #hero h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  #hero p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  section {
+    padding: 40px 0;
+  }
+  .contact iframe {
+    height: 200px !important;
+  }
+  .portfolio .col-lg-4 {
+    padding: 10px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
